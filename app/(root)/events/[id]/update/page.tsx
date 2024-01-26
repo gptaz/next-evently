@@ -27,6 +27,7 @@ const UpdateEvent = async ({ params: { id } }: UpdateEventProps) => {
           eventId={event._id} 
           userId={userId} 
         />
+        
       </div>
     </>
   )
